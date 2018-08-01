@@ -26,3 +26,12 @@ print(fspecial.fspecial('gaussian',4,3))
  [0.0623 0.0696 0.0696 0.0623]
  [0.0558 0.0623 0.0623 0.0558]]
 ```
+
+```python
+print(fspecial.fspecial('average',6))
+```
+
+```python
+[[0.25 0.25]
+ [0.25 0.25]]
+```

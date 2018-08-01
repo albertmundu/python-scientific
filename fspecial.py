@@ -30,4 +30,11 @@ def fspecial(*kargs):
             a = a/suma
             return a
         return None
+    elif(kargs[0] == 'average'):
+        if len(kargs) < 2:
+            p2 = (3,3)
+        elif len(kargs) >= 2:
+            p2 = kargs[1],kargs[1]
+        siz = p2
+        return np.ones(siz)/np.prod(siz)
 
