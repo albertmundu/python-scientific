@@ -10,7 +10,7 @@ np.set_printoptions(precision=4)
 
 print(fspecial.fspecial('gaussian'))
 ```
-```
+```python
 [[0.0113 0.0838 0.0113]
  [0.0838 0.6193 0.0838]
  [0.0113 0.0838 0.0113]]
@@ -20,7 +20,7 @@ print(fspecial.fspecial('gaussian'))
 print(fspecial.fspecial('gaussian',4,3))
 ```
 
-```
+```python
 [[0.0558 0.0623 0.0623 0.0558]
  [0.0623 0.0696 0.0696 0.0623]
  [0.0623 0.0696 0.0696 0.0623]
@@ -28,7 +28,7 @@ print(fspecial.fspecial('gaussian',4,3))
 ```
 
 ```python
-print(fspecial.fspecial('average',6))
+print(fspecial.fspecial('average',2))
 ```
 
 ```python
